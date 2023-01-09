@@ -1,3 +1,7 @@
 node_modules
+/migrations
+/tmp
 # Keep environment variables out of version control
 .env
+
+
