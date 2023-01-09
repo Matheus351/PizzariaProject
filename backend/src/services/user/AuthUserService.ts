@@ -18,7 +18,7 @@ class AuthUserService{
       })
 
       if(!user){
-       throw new Error('User or password incorrect')
+        throw new Error('User or password incorrect')
       }
 
       const passwordMatch = await compare(password, user.password)
